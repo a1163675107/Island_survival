@@ -5,8 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    vm:'vm',
   },
   mutations: {
+    settingVm(state,that){
+      state.vm=that;
+    }
   },
   actions: {
   },
